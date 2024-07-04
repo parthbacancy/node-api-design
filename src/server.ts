@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   console.log("Hello from Express");
   res.status(200);
-  res.json({ message: "hello" });
+  res.json({ message: "hello, this is Parth" });
 });
 
 // everything that has /api go through router
